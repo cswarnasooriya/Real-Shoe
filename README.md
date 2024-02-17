@@ -1,2 +1,2 @@
 # Real-Shoe
-vite + Tailwindcss + React as well
+This is my skill buildup project using those languages
