@@ -100,11 +100,11 @@ const About = () => {
                 <img src="logo-black.png" alt="logo image" className="absolute bottom-0 w-full h-full opacity-5 flip_image"/>
             </div>
         </div>
-        <div>
-            <p>
+        <div className="lg:flex max-w-[1600px] lg:w-4/5 ml-[5%] gap-x-8 pb-16 mb-4 px-4   ">
+            <p className="lg:text-[2.1rem] text-2xl lg:pb-0 pb-4 font-bold lg:w-1/2">
                 Adidas Primeknit upper wraps on the foot in adaptive support and ultralight comfort zoneguarenteed.
             </p>
-            <p>
+            <p className="lg:w-2/5 text-lg font-semibold">
                 You want that product bad & can't wait, then purchase immediatly at the lowest ask; or make an offer that no seller can refuse.
             </p>
         </div>
@@ -131,7 +131,7 @@ const About = () => {
                 <img src="/red-shoe.png" alt="red shoe" className="w-full py-8 hoverBtn"/>
             </div>
             <div className="w-full py-8 hoverBtn relative">
-                <p className="text-[#fcbc6d] lg:text-5xl font-bold absolute lg:top-16 left-8">LKR 12,500</p>
+                <p className="text-[#fcbc6d] lg:text-5xl font-bold absolute lg:top-16 left-8">LKR 9,500</p>
                 <img src="/red-shoe.png" alt="yellow shoe" className="w-full" />
             </div>
 
