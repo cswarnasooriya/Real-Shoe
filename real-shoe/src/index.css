@@ -41,7 +41,7 @@ p,h1,h2{
 }
 
 .flip_image{
-    transform: scale(-1);
+    transform: scale(1.2);
 }
 .button-hover{
     transition: all 1.4s ease 0s !important;
