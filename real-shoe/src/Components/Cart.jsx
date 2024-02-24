@@ -1,4 +1,27 @@
+import { IoArrowBackCircle } from "react-icons/io5";
+import { IoArrowForwardCircle } from "react-icons/io5";
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 
+const responsive = {
+    superLargeDesktop:{
+        breakpoint: {max:4000, min:3000},
+        items:3,
+    },
+
+    desktop:{
+        breakpoint: {max:3000, min:1024},
+        items:3,
+    },
+    tablet:{
+        breakpoint: {max:1024, min:464},
+        items:2,
+    },
+    module:{
+        breakpoint: {max:464, min:0},
+        items:1,
+    },  
+};
 
 const Cart = () => {
   return (
@@ -48,6 +71,30 @@ const Cart = () => {
             </div>
             <div className="xl:w-[70rem] lg:w-[50rem] w-80 absolute lg:-bottom-24 -bottom-8 lg:-right-54 right-0 ">
                 <img src="/shoe1.png" alt="shoe-1" className="w-full" />
+            </div>
+        </div>
+      </section>
+
+      <section>
+        <div>
+            <div>
+                <div>
+                    <h2>
+                       Colors Available 
+                    </h2>
+                    <p>
+                    The company was started by Adolf Dasser in his own house <br/>
+                    he was joined by his elder brother Roulf in 2021 under the foot name DSP brothers Shoe Factory...
+                    </p>
+                    <span>
+                        <button>
+                            <IoArrowBackCircle/>
+                        </button>
+                        <button>
+                            <IoArrowForwardCircle/>
+                        </button>
+                    </span>
+                </div>
             </div>
         </div>
       </section>
