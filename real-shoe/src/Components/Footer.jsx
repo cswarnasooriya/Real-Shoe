@@ -19,6 +19,18 @@ const Footer = () => {
                         <FaXTwitter/>
                     </div>
                 </div>
+                <div>
+                    <div>
+                        <h4>Company</h4>
+                            <ul>
+                                <li>Home</li>
+                                <li>Features</li>
+                                <li>Screenshots</li>
+                                <li>Pricing</li>
+                            </ul>
+                        
+                    </div>
+                </div>
             </div>
         </section>
       
