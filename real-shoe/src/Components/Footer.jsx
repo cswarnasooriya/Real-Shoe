@@ -1,4 +1,7 @@
-import React from 'react'
+import { FaGooglePlusG } from "react-icons/fa";
+import { CiFacebook } from "react-icons/ci";
+import { FaXTwitter } from "react-icons/fa6";
+
 
 const Footer = () => {
   return (
@@ -11,7 +14,9 @@ const Footer = () => {
 
                     </a>
                     <div>
-                        
+                        <FaGooglePlusG/>
+                        <CiFacebook/>
+                        <FaXTwitter/>
                     </div>
                 </div>
             </div>
